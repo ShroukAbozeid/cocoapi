@@ -1,7 +1,7 @@
 """
 download images based on some categories
 """
-from cocoapi.PythonAPI.pycocotools.coco import COCO
+from PythonAPI.pycocotools.coco import COCO
 import tensorflow as tf
 
 
