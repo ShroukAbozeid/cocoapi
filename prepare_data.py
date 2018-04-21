@@ -27,7 +27,7 @@ coco_cap = COCO(cap_ann_file)
 cats = coco_obj.loadCats(coco_obj.getCatIds())
 nms = set([cat['supercategory'] for cat in cats])
 
-catIds = coco_obj.getCatIds(supNms=['person', 'outdoor', 'indoor', 'food', 'animal'])
+catIds = coco_obj.getCatIds(supNms=['person', 'outdoor', 'indoor'])
 imgIds = coco_obj.getImgIds(catIds=catIds)
 # test  imgIds = imgIds[0]
 coco_cap.download(data_dir, imgIds)
