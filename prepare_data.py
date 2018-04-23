@@ -32,8 +32,8 @@ imgIds = coco_obj.getImgIds(catIds=catIds)
 # test  imgIds = imgIds[0]
 coco_cap.download(data_dir, imgIds)
 
-imgs = coco_cap.loadImgs(imgIds)
+#imgs = coco_cap.loadImgs(imgIds)
 
-annIds = coco_cap.getAnnIds(imgIds)
-anns = coco_cap.loadAnns(annIds)
+#annIds = coco_cap.getAnnIds(imgIds)
+#anns = coco_cap.loadAnns(annIds)
 
